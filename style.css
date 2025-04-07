@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f6f2;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-section input[type="email"],
+  .form-section input[type="password"],
+  .form-section input[type="text"],
+  textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .btn {
+    background-color: #f25c5c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #d94848;
+  }
+  
+  .alt-link {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .alt-link a {
+    color: #f25c5c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu button {
+    padding: 12px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .friends {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .friend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .friend img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .timer {
+    text-align: center;
+  }
+  
+  .timer h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .badges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .badge {
+    width: 100%;
+    padding-top: 100%;
+    background: #fcd34d;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 8px;
+    background: #f0f0f0;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .footer-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-btns button:first-child {
+    background-color: #4b5563;
+    color: white;
+  }
+  
+  .footer-btns button:last-child {
+    background-color: #ef4444;
+    color: white;
+  }
+  
